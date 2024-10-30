@@ -3,7 +3,7 @@
 Discord Bot template for ACMCSUF-OSS Fall 2024 Discord Workshop.
 - Created By Thomas Oh and Owen Sterling
 
-Check out [Owen's Discord BOT Template](https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE) for a more complete, and scalable solution which is ideal for bot development.
+Check out [Owen's Discord BOT Template](https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE) for a more complex, but complete and scalable solution, which is ideal for bot development.
 
 
 ## Installation / Development
@@ -25,18 +25,10 @@ git clone git@github.com:JOwen-ster/canvasbotworkshop.git
 gh repo clone JOwen-ster/canvasbotworkshop
 ```
 
-Once you have the repository cloned, follow the instructions in [this README](https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE?tab=readme-ov-file#creating-your-application) to:
+Once you have the repository cloned, follow the instructions below to:
 - Configure the Discord bot in the development portal
 - Retrieve the Canvas API key
 - Set up your local development environment (installing dependencies)
-
-## End result
-
-If everything is configured correctly, you should be able to interact with the slash commands. Type `/` in a Discord channel’s textbox and confirm that the `canvas-courses` and `canvas-assignments` commands are functioning as expected!
-
-<img src="media/results.png" alt="Canvas Bot command results" />
-
----
 
 Next, on the side of your screen click on the `Installation` tab.
 
