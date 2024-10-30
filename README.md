@@ -12,17 +12,17 @@ Check out [Owen's Discord BOT Template](https://github.com/JOwen-ster/Discord.py
 
 - [x] HTTPS
 ```
-git clone https://github.com/JOwen-ster/canvasbot.git
+git clone https://github.com/JOwen-ster/canvasbotworkshop.git
 ```
 
 - [X] SSH
 ```
-git clone git@github.com:JOwen-ster/canvasbot.git
+git clone git@github.com:JOwen-ster/canvasbotworkshop.git
 ```
 
 - [X] GitHub CLI
 ```
-gh repo clone JOwen-ster/canvasbot.git
+gh repo clone JOwen-ster/canvasbotworkshop
 ```
 
 Once you have the repository cloned, follow the instructions in [this README](https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE?tab=readme-ov-file#creating-your-application) to:
