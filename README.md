@@ -5,9 +5,8 @@ Discord Bot template for ACMCSUF-OSS Fall 2024 Discord Workshop.
 
 Check out [Owen's Discord BOT Template](https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE) for a more complex, but complete and scalable solution, which is ideal for bot development.
 
-
-## Installation / Development
-# **You will need...**
+# Installation / Development
+## **You will need...**
 - A [Discord](https://discord.com/) account
 - [Python](https://www.python.org/) installed
   - If you want to use JavaScript to make a discord bot, I recommend using this [template](https://github.com/PillowGit/base-discord-js-bot) made by [@PillowGit](https://github.com/PillowGit) for the coding portion
@@ -62,18 +61,19 @@ Now, scroll down to `Default Install Settings` and click on the `SCOPES` dropdow
 Under `Install Link`, there is a link you send to others. When clicked, that user can add your bot with all the permissions you selected to any server they have the `Manage Server` permission in (or it will not appear under the list of servers when adding).
 
 
-### Before we get coding...
+## Getting Your Bots Moat Recent Token
 > [!IMPORTANT]
 > Go to the `Bot` tab.
 > Click `Reset Token` near the top of the page
 
-# ***__COPY AND SAVE THIS TOKEN SOMEWHERE SECURE AND SOMEWHERE YOU CAN ACCESS IT__***
+> [!IMPORTANT]
+> ### **COPY AND SAVE THIS TOKEN SOMEWHERE SECURE AND SOMEWHERE YOU CAN ACCESS IT**
 
 > [!CAUTION]
-> # **THIS TOKEN IS HOW TO CONNECT TO YOUR APPLICATION WITH CODE, NO ONE NEEDS ANYTHING ELSE TO CONNECT/LOG INTO YOUR BOT EXCEPT THE MOST RECENT TOKEN. NEVER POST IT OR YOU RISK YOUR BOT GETTING HIGHJACKED**
+> ### **THIS TOKEN IS HOW TO CONNECT TO YOUR APPLICATION WITH CODE, NO ONE NEEDS ANYTHING ELSE TO CONNECT/LOG INTO YOUR BOT EXCEPT THE MOST RECENT TOKEN. NEVER POST IT OR YOU RISK YOUR BOT GETTING HIGHJACKED**
 
 > [!CAUTION]
-> If you do not type `.env` in your `.gitignore` file, (the `.env` file is where you should put your token) , then GitHub bots **will** scrape your token (it has happened to me) and may use it. Discord will hopefully send you a message very fast saying they caught it and reset it since they are also scraping for Discord Bot Tokens to watch out for you and keeping your bots secure :)
+> If you do not type `.env` in your `.gitignore` file, (the `.env` file is where you should put your token) , then GitHub bots **__will__** scrape your token (it has happened to me) and may use it. Discord will hopefully send you a message very fast saying they caught it and reset it since they are also scraping for Discord Bot Tokens to watch out for you and keeping your bots secure :)
 
 ![image](https://github.com/JOwen-ster/Discord_Bot_Workshop_2024/assets/111905194/79737d0c-b11f-4ee2-a0e2-f23a2d7f92f7)
 
@@ -95,7 +95,10 @@ Then, activate the venv.
 source botenv/bin/activate
 ```
 
-**Windows Powershell**
+**Windows Powershell (RUN AS ADMINISTRATOR)**
+```
+Set-ExecutionPolicy RemoteSigned
+```
 ```
 botenv\Scripts\Activate.ps1
 ```
