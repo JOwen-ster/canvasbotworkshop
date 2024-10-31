@@ -7,28 +7,42 @@ Check out [Owen's Discord BOT Template](https://github.com/JOwen-ster/Discord.py
 
 
 ## Installation / Development
+# **You will need...**
+- A [Discord](https://discord.com/) account
+- [Python](https://www.python.org/) installed
+  - If you want to use JavaScript to make a discord bot, I recommend using this [template](https://github.com/PillowGit/base-discord-js-bot) made by [@PillowGit](https://github.com/PillowGit) for the coding portion
+- Internet access
+- A IDE to edit and run code (Like Visual Studio Code)
 
-### Clone this repository
 
+***CLONE THIS REPOSITORY***
 - [x] HTTPS
 ```
-git clone https://github.com/JOwen-ster/canvasbotworkshop.git
+git clone https://github.com/JOwen-ster/Discord.py-Bot-TEMPLATE.git
 ```
 
 - [X] SSH
 ```
-git clone git@github.com:JOwen-ster/canvasbotworkshop.git
+git clone git@github.com:JOwen-ster/Discord.py-Bot-TEMPLATE.git
 ```
 
 - [X] GitHub CLI
 ```
-gh repo clone JOwen-ster/canvasbotworkshop
+gh repo clone JOwen-ster/Discord.py-Bot-TEMPLATE.git
 ```
 
-Once you have the repository cloned, follow the instructions below to:
-- Configure the Discord bot in the development portal
-- Retrieve the Canvas API key
-- Set up your local development environment (installing dependencies)
+![Discord_Python_Logo](https://images.opencollective.com/discordpy/25fb26d/logo/256.png)
+
+## Creating Your Application
+Head over to the [discord developer page](https://discord.com/developers/applications), log in, and at the top right of your screen click `New Application`, type the name of your Discord bot, and then click `create`
+
+> [!NOTE]
+> For simplicity we will not select a team, but you can create a team in the 'Teams' tab and add people that will be associated with the development of the bot!
+
+On the side, click on the `Bot` tab and then scroll down to `Privileged Gateway Intents` on that page. These are the different types of data that your bot will have access to when in a server. You can read about them on [developer gateway intents page](https://discord.com/developers/docs/topics/gateway#gateway-intents) to see what each intent covers and if you may need a single or multiple when you make your own bot!
+
+> [!NOTE]
+> For simplicity, we will toggle on all gateway intents in case you want to add more to your first bot. In real practice, you want to read up on these intents and see which your bot would need since when you apply to get your bot verified at 75 servers, Discord will ask you why you are using them! You will need to apply for gateway intents separately with the verification process. If you have any questions about verifying a discord bot, ask me on Discord (`typos.`) since I have a bot that is in 300+ servers and is verified!
 
 Next, on the side of your screen click on the `Installation` tab.
 
